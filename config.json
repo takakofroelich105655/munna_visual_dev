@@ -1,0 +1,45 @@
+{
+    "urls": {
+        "login": "https://example.com/api/login",
+        "register": "https://example.com/api/register"
+    },
+    "forms": {
+        "login": {
+            "fields": [
+                {
+                    "name": "username",
+                    "label": "Username"
+                },
+                {
+                    "name": "password",
+                    "label": "Password"
+                }
+            ]
+        },
+        "register": {
+            "fields": [
+                {
+                    "name": "first_name",
+                    "label": "First Name"
+                },
+                {
+                    "name": "last_name",
+                    "label": "Last Name"
+                },
+                {
+                    "name": "email",
+                    "label": "Email"
+                },
+                {
+                    "name": "password",
+                    "label": "Password"
+                }
+            ]
+        }
+    },
+    "parts": {
+        "header": {
+            "background_color": "#f0f0f0"
+        }
+    }
+}
